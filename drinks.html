@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>fooditems</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="homepage.css">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+.row {
+  display: flex;
+}
+.price {
+  color: grey;
+  font-size: 22px;
+}
+
+/* Create three equal columns that sits next to each other */
+.column {
+  flex: 30%;
+  padding: 3px;
+box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 300px;
+  margin: auto;
+  text-align: center;
+  font-family: arial;
+}
+.column button {
+  border: none;
+  outline: 0;
+  padding: 12px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-size: 18px;
+}
+
+.column button:hover {
+  opacity: 0.7;
+}
+nav{
+background:#594848;
+width:100%;
+overflow:auto;
+}
+ul{
+margin:0;
+padding:0;
+list-style:none;
+}
+li{
+float:left;
+}
+
+
+nav a{
+width:120px;
+display:block;
+text-decoration:none;
+text-align:center;
+background:#594848;
+font-size:17px;
+color:white;
+padding:20px 10px;
+font-family:Arial;
+}
+body{
+margin:0;
+
+</style>
+</head>
+<body>
+<h2 align="center">Food Items</h2>
+<header>
+<ul class="nav-area">
+<li><a href="homepage.html">HOME</a></li>
+<li class="active">
+<a href="login.html">LOGIN</a></li>
+<li><a href="Signup.html">REGISTER</a></li>
+<li><a href="#">CONTACT</a></li>
+<li><a href="#">ABOUT US</a></li>
+</ul>
+<nav>
+<ul>	
+     <li><a href="tiffins.html">Tiffins</a></li>
+     <li><a href="meals.html">Meals</a></li>
+     <li><a href="drinks.html">Drinks/Ice cream</a></li>
+     
+    </ul> 
+    </nav>
+<div class="row">
+  <div class="column">
+    <img src="milk shakes.jpg" alt="Milkshakes" style="width:100%">
+   <h1>Milkshakes</h1>
+  <p class="price">Rs.89/-</p>
+  <p><button>Add to Cart</button></p>
+  </div>
+  <div class="column">
+    <img src="ice cream.jpg" alt="Ice Cream" style="width:100%">
+     <h1>Ice Cream</h1>
+  <p class="price">Rs.59/-</p>
+  <p><button>Add to Cart</button></p>
+  </div>
+  <div class="column">
+    <img src="faluda.jpg" alt="Faluda" style="width:100%">
+     <h1>Faluda</h1>
+  <p class="price">Rs.99/-</p>
+  <p><button>Add to Cart</button></p>
+  </div>
+</div>
+</header>
+</body>
+</html>
